@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username:
+    password:
+    url:
+#  sql:
+#    init:
+#      schema-locations: classpath:db/schema-h2.sql
+#      data-locations: classpath:db/data-h2.sql
+
+server:
+  servlet:
+    context-path: /
+  port: 8081
+  address: 0.0.0.0
+
+logging:
+  level:
+    root: info
